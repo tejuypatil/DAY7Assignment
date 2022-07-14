@@ -1,6 +1,28 @@
 package com.bridgelabz.game;
 
+import java.util.Scanner;
+
 public class TicTacToeGame {
+
+static char computerLetter = ' ';
+static char playerLetter = ' ';
+
+
+   public static void chooseLetter() {
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("choose the letter: 'X' or 'O' ");
+       char playerLetter =scanner.next().charAt(0);
+       if(playerLetter=='X'){
+           computerLetter='O';
+       } else if (playerLetter == 'O') {
+           computerLetter='X';
+       }
+       else{
+           chooseLetter();
+       }
+   }
+
+
     public static void printBoard(char[][]board)
     {
         for(int i = 0; i < 5; i++)
@@ -20,5 +42,8 @@ public class TicTacToeGame {
                     {'-','+','-','+','-'},
                     {' ','|',' ','|',' '}};
             printBoard(board);
+
+            System.out.println("");
+            chooseLetter();
         }
 }
