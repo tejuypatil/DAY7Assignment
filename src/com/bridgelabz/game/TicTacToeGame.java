@@ -5,36 +5,82 @@ import java.util.Scanner;
 public class TicTacToeGame {
 
 
-    static void putPlayerOnBoard(char[][] board, int position, char symbol){
+    static boolean putPlayerOnBoard(char[][] board, int position, char symbol){
         switch (position){
             case 1:
+                if (board[0][0] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[0][0]= symbol;
                 break;
             case 2:
+                if (board[0][2] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[0][2]= symbol;
                 break;
             case 3:
+                if (board[0][4] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[0][4]= symbol;
                 break;
             case 4:
+                if (board[2][0] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[2][0]= symbol;
                 break;
             case 5:
+                if (board[2][2] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[2][2]= symbol;
                 break;
             case 6:
+                if (board[2][4] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[2][4]= symbol;
                 break;
             case 7:
+                if (board[4][0] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[4][0]= symbol;
                 break;
             case 8:
+                if (board[4][2] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[4][2]= symbol;
                 break;
             case 9:
+                if (board[4][4] != ' ')
+                {
+                    System.out.println("Player already exist");
+                    return false;
+                }
                 board[4][4]= symbol;
                 break;
         }
+        return true;
 
     }
 
@@ -108,8 +154,11 @@ public class TicTacToeGame {
         {
             int position=getPositionFromUser();
 
-            putPlayerOnBoard(board,position,playerLetter);
-            printBoard(board);
+            boolean isPlayerPut=putPlayerOnBoard(board,position,playerLetter);
+            if (isPlayerPut){
+                printBoard(board);
+            }
+
         }
 
     }
