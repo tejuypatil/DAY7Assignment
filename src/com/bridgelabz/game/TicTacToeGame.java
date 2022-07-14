@@ -7,7 +7,14 @@ public class TicTacToeGame {
 static char computerLetter = ' ';
 static char playerLetter = ' ';
 
-
+    static void showBoard(){
+        char[][] board={{' ','|',' ','|',' '},
+                {'-','+','-','+','-'},
+                {' ','|',' ','|',' '},
+                {'-','+','-','+','-'},
+                {' ','|',' ','|',' '}};
+        printBoard(board);
+    }
    public static void chooseLetter() {
        Scanner scanner = new Scanner(System.in);
        System.out.println("choose the letter: 'X' or 'O' ");
@@ -36,14 +43,7 @@ static char playerLetter = ' ';
     public static void main(String[] args)
         {
             System.out.println("Welcome to Tic Tac Toe Game");
-            char[][] board={{' ','|',' ','|',' '},
-                    {'-','+','-','+','-'},
-                    {' ','|',' ','|',' '},
-                    {'-','+','-','+','-'},
-                    {' ','|',' ','|',' '}};
-            printBoard(board);
-
-            System.out.println("");
             chooseLetter();
+            showBoard();
         }
 }

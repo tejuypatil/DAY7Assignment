@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Added program of UC2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java" afterDir="false" />
-    </list>
+    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Created program for UC3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657792214308</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added program of UC2">
+      <created>1657798392129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657798392129</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created program for UC3">
+      <created>1657801258527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657801258527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,15 +114,20 @@
     <MESSAGE value="Added welcome program" />
     <MESSAGE value="Added program by using use case 1" />
     <MESSAGE value="Added program of UC2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added program of UC2" />
+    <MESSAGE value="Created program for UC3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created program for UC3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="7" />
+          <line>42</line>
+          <properties class="com.bridgelabz.game.TicTacToeGame" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
