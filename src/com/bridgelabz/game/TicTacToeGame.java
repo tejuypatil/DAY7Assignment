@@ -2,6 +2,8 @@ package com.bridgelabz.game;
 
 import java.util.Scanner;
 
+import static java.lang.Math.round;
+
 public class TicTacToeGame {
 
 
@@ -130,7 +132,15 @@ public class TicTacToeGame {
         return position;
     }
 
-
+    static String doToss(){
+        if (Math.random() < 0.5)
+        {
+            return "Head";
+        }
+        else {
+            return "Tail";
+        }
+    }
 
     public static void main(String[] args)
     {
@@ -147,16 +157,30 @@ public class TicTacToeGame {
 
         playerLetter = getPlayerLetter();
         computerLetter = getComputerLetter(playerLetter);
-
+        char currentPlayer;
         printBoard(board);
+
+        String Toss = doToss();
+        if (Toss.equals("Head") ){
+            currentPlayer=playerLetter;
+        }
+        else {
+            currentPlayer=computerLetter;
+        }
 
         while (true)
         {
             int position=getPositionFromUser();
 
-            boolean isPlayerPut=putPlayerOnBoard(board,position,playerLetter);
+            boolean isPlayerPut=putPlayerOnBoard(board,position,currentPlayer);
             if (isPlayerPut){
                 printBoard(board);
+                if(currentPlayer==playerLetter){
+                    currentPlayer=computerLetter;
+                }
+                else if(currentPlayer==computerLetter){
+                    currentPlayer=playerLetter;
+                }
             }
 
         }
