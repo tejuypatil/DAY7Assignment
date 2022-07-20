@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Created program for UC5">
+    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Added Program for UC6">
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java" afterDir="false" />
     </list>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657824428639</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Program for UC6">
+      <created>1657860214895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657860214895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +143,8 @@
     <MESSAGE value="Created program for UC3" />
     <MESSAGE value="Created program for UC4" />
     <MESSAGE value="Created program for UC5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created program for UC5" />
+    <MESSAGE value="Added Program for UC6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program for UC6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -147,7 +156,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java</url>
-          <line>157</line>
+          <line>159</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -157,22 +166,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java</url>
-          <line>146</line>
+          <line>148</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java</url>
           <line>90</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java</url>
-          <line>144</line>
-          <properties class="com.bridgelabz.game.TicTacToeGame" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

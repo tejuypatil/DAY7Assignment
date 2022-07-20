@@ -141,7 +141,9 @@ public class TicTacToeGame {
             return "Tail";
         }
     }
-
+    static boolean doesPlayerWins(char currentPlayer,char[][] board){
+        return false;
+    }
     public static void main(String[] args)
     {
         System.out.println("Welcome to Tic Tac Toe Game");
@@ -175,6 +177,12 @@ public class TicTacToeGame {
             boolean isPlayerPut=putPlayerOnBoard(board,position,currentPlayer);
             if (isPlayerPut){
                 printBoard(board);
+                if(doesPlayerWins(currentPlayer,board))
+                {
+                    System.out.println(currentPlayer+" wins");
+                    break;
+                }
+
                 if(currentPlayer==playerLetter){
                     currentPlayer=computerLetter;
                 }
