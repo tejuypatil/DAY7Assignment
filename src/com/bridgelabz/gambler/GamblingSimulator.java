@@ -20,9 +20,14 @@ public class GamblingSimulator {
         }
         System.out.println("You have a Daily Stake = "+DAILY_STAKE);
     }
+    static void resignForTheDay(){
+        while (DAILY_STAKE< 150 && DAILY_STAKE>50){
+            checkWin();
+        }
+    }
 
     public static void main(String[] args) {
         System.out.println("Welcome to Gambling Simulator");
-        checkWin();
+        resignForTheDay();
     }
 }
