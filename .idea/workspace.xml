@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Added Program for UC6">
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/game/TicTacToeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GamblingSimulator">
+    <configuration name="GamblingSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.gambler.GamblingSimulator" />
+      <module name="DAY7Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.gambler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.game.TicTacToeGame" />
       <module name="DAY7Assignment" />
@@ -53,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GamblingSimulator" />
         <item itemvalue="Application.TicTacToeGame" />
       </list>
     </recent_temporary>
