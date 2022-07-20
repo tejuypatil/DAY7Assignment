@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Added Program for UC6">
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" afterDir="false" />
-    </list>
+    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Started the game using welcome msg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657860214895</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started the game using welcome msg">
+      <created>1658342083785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658342083785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +161,8 @@
     <MESSAGE value="Created program for UC4" />
     <MESSAGE value="Created program for UC5" />
     <MESSAGE value="Added Program for UC6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program for UC6" />
+    <MESSAGE value="Started the game using welcome msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started the game using welcome msg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
