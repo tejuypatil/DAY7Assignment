@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Added program to check win or loss">
+    <list default="true" id="734e6ddb-6633-4941-a4d8-115c27ede84c" name="Changes" comment="Added program to calculative gambler f won or lost 50% of the stake">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/gambler/GamblingSimulator.java" afterDir="false" />
     </list>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658343615244</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added program to calculative gambler f won or lost 50% of the stake">
+      <created>1658344667241</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658344667241</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +187,8 @@
     <MESSAGE value="Added Program for UC6" />
     <MESSAGE value="Started the game using welcome msg" />
     <MESSAGE value="Added program to check win or loss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added program to check win or loss" />
+    <MESSAGE value="Added program to calculative gambler f won or lost 50% of the stake" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added program to calculative gambler f won or lost 50% of the stake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
